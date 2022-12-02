@@ -3,12 +3,13 @@
 @use "../../styles/typography" as *;
 
 .OfferCardList {
-    padding: 1rem;
+    padding: 2rem 1rem;
     background-color: $background;
 
     &__container {
         display: flex;
         justify-content: space-between;
+        margin: 0 0.5rem 1rem 0.5rem;
     }
 
     &__title {
@@ -16,7 +17,7 @@
         font-size: 0.6875rem;
         font-weight: 600;
         text-transform: uppercase;
-        color: $grey-body;
+        color: $blue-1;
         width: 100%;
     }
 
