@@ -9,9 +9,9 @@
     &__blue-text{
         color: $blue-1;
         font-family: $archivo;
-        font-weight: 700;
+        font-weight: bold;
         margin: 0.5rem;
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
 
     &__grey-text{
@@ -31,6 +31,7 @@
     &__visit-website-container{
         display: flex;
         align-items: center;
+        margin-top: 2rem;
     }
 
 }
