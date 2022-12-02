@@ -13,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<YourOffer/>} />
         <Route path="/swapOffers" element={<OfferCardList/>} />
+        <Route path="/selected" element={<NewYourOffer/>}/>
       </Routes>
     </BrowserRouter>
   );
