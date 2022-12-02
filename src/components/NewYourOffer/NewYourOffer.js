@@ -38,6 +38,8 @@ const NewYourOffers = () => {
     const [text, setText] = useState("For participating locations in Ontario*")
     const [date, setDate] = useState("Ends 2022 Dec 25")
 
+    const [navLinkSelected, _setNavLinkSelected] = useState("active")
+
 
     const [imgClass, setImgClass] = useState("new-card__hm");
 
@@ -134,7 +136,7 @@ const NewYourOffers = () => {
 
     return (
         <>
-        <Header/>
+        <Header navLinkSelected={navLinkSelected}/>
         <section className="new-your-offer">
             <div className="new-your-offer__container">
                 <p className="new-your-offer__blue-text">AIRMILES OFFERS</p>
