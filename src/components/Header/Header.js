@@ -7,7 +7,7 @@ import creditCard from "../../assets/icons/CreditCardIcon.png";
 import checkMark from "../../assets/icons/BellIcon.png";
 
 
-const Header = () => {
+const Header = ({navLinkSelected}) => {
     return (
         <div className='header'>
             <div className='header__icon-title-container'>
@@ -18,7 +18,7 @@ const Header = () => {
 
         
             <div className="header__nav-links">
-                <NavLink style={({ isActive }) => (isActive ? {color: '#538FE1'} : {color: '#7D8590'})} to="/">Your Offers</NavLink>
+                <NavLink style={({ isActive }) => (isActive || navLinkSelected === "active" ? {color: '#538FE1'} : {color: '#7D8590'})} to="/">Your Offers</NavLink>
                 <NavLink style={({ isActive }) => (isActive ? {color: '#538FE1'} : {color: '#7D8590'})} to="/swapOffers">Swap Offers</NavLink>
             </div>
         </div>
