@@ -11,12 +11,11 @@ import swapIcon from "../../assets/icons/swap_icon.png";
 import { useNavigate } from "react-router-dom";
 
 const OfferCard = () => {
-
   const navigate = useNavigate();
 
   const handleSwapClick = () => {
-    navigate("/selected")
-    window.scrollTo(0, 0)
+    navigate("/selected");
+    window.scrollTo(0, 0);
   };
 
   return (

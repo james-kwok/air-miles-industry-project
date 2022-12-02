@@ -24,14 +24,19 @@
   }
 
   &__image-container {
-    // height: 5rem;
     display: flex;
     justify-content: center;
-    padding: 2.5rem;
+    height: 5rem;
   }
 
   &__image {
-    height: 2.25rem;
+    height: 7.5vw;
+    margin: auto;
+  }
+
+  &__image-ae {
+    height: 80%;
+    margin: auto;
   }
 
   &__text-container {
@@ -89,5 +94,6 @@
     font-size: 1rem;
     font-weight: 700;
     color: $white;
+    border-bottom: none;
   }
 }
