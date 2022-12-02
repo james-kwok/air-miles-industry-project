@@ -1,10 +1,26 @@
 import "./OfferDetailsPage.scss";
 import americanEagle from "../../assets/images/american_eagle.png";
 import visitWebsite from "../../assets/icons/VisitWebsiteIcon.png";
+import backArrow from "../../assets/icons/arrow_back-24px.svg";
+import creditCard from "../../assets/icons/CreditCardIcon.png";
+import { useNavigate } from "react-router-dom";
 
 const OfferDetailsPage = () => {
+  const navigate = useNavigate();
+
+  const handleNavigate = () => {
+    navigate("/swapOffers");
+    window.scrollTo(0, 0);
+  };
   return (
     <>
+      <div className="header">
+        <div className="header__icon-title-container">
+          <img onClick={handleNavigate} className="header__back-icon" src={backArrow} alt="back arrow" />
+          <p className="header__title">Offers Details</p>
+          <img src={creditCard} className="header__icon" alt="Bell" />
+        </div>
+      </div>
       <div className="OfferDetails">
         <div className="OfferDetails__image-container">
           <img
