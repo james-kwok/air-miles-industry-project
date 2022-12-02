@@ -1,0 +1,44 @@
+@use "../../styles/colors.scss" as *;
+@use "../../styles/typography.scss" as *;
+
+.header{
+    display: flex;
+    flex-direction: column;
+    background-color: $white;
+
+    &__nav-links{
+        display: flex;
+        padding: 2rem 2rem 0 2rem;
+        gap: 6rem;
+        justify-content: center;
+    }
+
+    &__icon-title-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem 1rem 0rem 1rem;
+    }
+
+    &__icon{
+        max-height: 2rem;
+    }
+
+    &__title{
+        font-family: $archivo;
+        font-size: 1.5rem;
+        color: $grey-dark;
+        font-weight: bold;
+    }
+}
+a{
+    text-decoration: none;
+    font-family: $archivo;
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+}
+
+.active{
+    border-bottom: 0.2rem solid $blue-3;
+    font-weight: bold;
+}
