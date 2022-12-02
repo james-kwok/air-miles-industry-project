@@ -72,7 +72,7 @@ const OfferCard = () => {
           </div>
           <div className="OfferCard__image-container">
             <img
-              className="OfferCard__image"
+              className="OfferCard__ae"
               src={americanEagle}
               alt="sephora-logo"
             />
