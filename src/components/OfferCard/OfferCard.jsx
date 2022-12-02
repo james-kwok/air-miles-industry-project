@@ -19,11 +19,6 @@ const OfferCard = () => {
     window.scrollTo(0, 0)
   };
 
-  const handleDetailsPage = () => {
-    navigate("/offerDetails")
-    window.scrollTo(0, 0)
-  };
-
   return (
     <>
       <div className="OfferCard">
@@ -73,17 +68,17 @@ const OfferCard = () => {
         </div>
       </div>
       <div className="OfferCard">
-          <div className="OfferCard__banner" onClick={handleDetailsPage}>
+          <div className="OfferCard__banner">
             <span className="OfferCard__banner-text">1000 Bonus Miles</span>
           </div>
-          <div className="OfferCard__image-container" onClick={handleDetailsPage}>
+          <div className="OfferCard__image-container">
             <img
               className="OfferCard__image"
               src={americanEagle}
               alt="sephora-logo"
             />
           </div>
-          <div className="OfferCard__text-container" onClick={handleDetailsPage}>
+          <div className="OfferCard__text-container">
             <h2 className="OfferCard__title">
               For every $50 winter collection, online purchase limited
             </h2>
