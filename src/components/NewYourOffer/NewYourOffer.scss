@@ -7,17 +7,20 @@
     padding: 1rem;
 
     &__blue-text{
+        font-family: $montserrat;
+        text-transform: uppercase;
         color: $blue-1;
-        font-family: $archivo;
-        margin: 0.5rem;
-        font-size: 0.9rem;
+        width: 100%;
+        font-weight: bold;
+        font-size: 1rem;
     }
 
     &__grey-text{
-        color: $grey-dark;
         font-family: $archivo;
-        margin: 0.5rem;
-        padding-bottom: 1rem;
+        font-size: 1rem;
+        font-weight: 400;
+        color: $grey-mid;
+        margin: 0 0 1rem 0;
     }
 
     &__visit-website{
