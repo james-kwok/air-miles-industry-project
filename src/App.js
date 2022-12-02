@@ -1,7 +1,11 @@
-import './App.scss';
+import "./App.scss";
+import OfferCardList from "./components/OfferCardList/OfferCardList";
 
 function App() {
-  return (<></>
+  return (
+    <>
+      <OfferCardList />
+    </>
   );
 }
 

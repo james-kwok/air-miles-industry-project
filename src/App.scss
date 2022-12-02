@@ -1,0 +1,11 @@
+@use "styles/colors" as *;
+@use "styles/breakpoints" as *;
+@use "styles/typography" as *;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}

@@ -1,0 +1,57 @@
+@use "../../styles/colors" as *;
+@use "../../styles/breakpoints" as *;
+@use "../../styles/typography" as *;
+
+.OfferCardList {
+    padding: 1rem;
+    background-color: $background;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__title {
+        font-family: $montserrat;
+        font-size: 0.6875rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: $grey-body;
+        width: 100%;
+    }
+
+    &__copy {
+        font-family: $archivo;
+        font-size: 1rem;
+        font-weight: 400;
+        color: $grey-mid;
+        margin: 0 0 1rem 0;
+    }
+
+    &__filter {
+        height: 2rem;
+        width: 2rem;
+        background-color: $blue-3;
+        border-radius: 0.25rem;
+        margin: auto 1rem auto auto;
+        display: flex;
+        box-shadow: 0 2px 4px rgb(0 0 0 / 0.15);
+
+        &:hover {
+            background-color: $blue-1;
+        }
+    }
+
+    &__filter-icon {
+        width: 1.5rem;
+        height: 1.5rem;
+        margin: auto;
+    }
+
+    &__cards {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}

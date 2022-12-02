@@ -1,3 +1,78 @@
 @use "../../styles/colors" as *;
 @use "../../styles/breakpoints" as *;
 @use "../../styles/typography" as *;
+
+.OfferCard {
+  height: 20rem;
+  width: 49%;
+  padding: 1rem 0;
+  background-color: $white;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 0.15);
+  margin-bottom: 1rem;
+
+  &__banner {
+    border-bottom: 1px solid $grey-lightest;
+    padding-bottom: 1rem;
+  }
+
+  &__banner-text {
+    font-family: $archivo;
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: $blue-2;
+    margin-left: 1rem;
+  }
+
+  &__image-container {
+    height: 5rem;
+    display: flex;
+  }
+
+  &__image {
+    width: 8.75rem;
+    margin: auto
+  }
+
+  &__text-container {
+    border-top: 1px solid $grey-lightest;
+    border-bottom: 1px solid $grey-lightest;
+  }
+
+  &__title {
+    font-family: $archivo;
+    font-size: 1rem;
+    font-weight: 600;
+    color: $grey-dark;
+    margin: 1rem;
+  }
+
+  &__duration-text {
+    font-family: $archivo;
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: $grey-mid;
+    margin: 1rem;
+  }
+
+  &__button {
+    height: 2.8125rem;
+    background-color: $blue-2;
+    border-radius: 0.25rem;
+    padding: 0.75rem 1rem;
+    margin: 0.75rem 1rem;
+    display: flex;
+    justify-content: center;
+
+    &:hover {
+      background-color: $blue-1;
+    }
+  }
+
+  &__button-text {
+    font-family: $montserrat;
+    font-size: 1rem;
+    font-weight: 700;
+    color: $white;
+  }
+}
