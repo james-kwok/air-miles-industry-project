@@ -34,8 +34,8 @@ const YourOffers = () => {
                     </div>
                     <div className="card__text-info-container">
                         <p className="card__cash-value">$150 in cash value</p>
-                        <p className="card__info-text">1,500 welcome bonus 3x points for reacurring expenses in first 3 months</p>
-                        <p className="card__end-date">End 2023 Jul 31</p>
+                        <p className="card__info-text">1,500 welcome bonus 3x points for reacurring expenses in first 3 months.</p>
+                        <p className="card__end-date">Ends 2023 Jul 31</p>
                     </div>
                 </div>
                 <div className="card__info-container">
@@ -89,9 +89,9 @@ const YourOffers = () => {
                         <img className="card-ready-use__mcdonalds" src={mcdonalds} alt=""></img>
                     </div>
                     <div className="card-ready-use__text-info-container">
-                        <p className="card-ready-use__cash-value">$150 in cash value</p>
-                        <p className="card-ready-use__info-text">1,500 welcome bonus 3x points for reacurring expenses in first 3 months</p>
-                        <p className="card-ready-use__end-date">End 2023 Jul 31</p>
+                        <p className="card-ready-use__cash-value">10 Bonus Miles for one combo</p>
+                        <p className="card-ready-use__info-text">Regular priced item, participating locations only.</p>
+                        <p className="card-ready-use__end-date">Ends in 6 days</p>
                     </div>
                 </div>
                 <div className="card-ready-use__info-container">
@@ -99,9 +99,9 @@ const YourOffers = () => {
                         <img className="card-ready-use__uber-eats" src={uberEats} alt=""></img>
                     </div>
                     <div className="card-ready-use__text-info-container">
-                        <p className="card-ready-use__cash-value">10 Bonus Miles for every $20</p>
-                        <p className="card-ready-use__info-text">For participating locations in Ontario*</p>
-                        <p className="card-ready-use__end-date">Ends 2022 Dec 25</p>
+                        <p className="card-ready-use__cash-value">50 Bonus miles for every order</p>
+                        <p className="card-ready-use__info-text">Minimum order 20$ before tax and delivery fee. 4 orders per account.</p>
+                        <p className="card-ready-use__end-date">Ends 2022 Dec 15</p>
                     </div>
                 </div>
                 <div className="card-ready-use__info-container">
@@ -109,9 +109,9 @@ const YourOffers = () => {
                         <img className="card-ready-use__door-dash" src={doorDash} alt=""></img>
                     </div>
                     <div className="card-ready-use__text-info-container">
-                        <p className="card-ready-use__cash-value">15 Bonus miles for every 20</p>
-                        <p className="card-ready-use__info-text">Final sales items are excluded from this offer*</p>
-                        <p className="card-ready-use__end-date">Ends 2022 Dec 16</p>
+                        <p className="card-ready-use__cash-value">40 Bonus miles for every order</p>
+                        <p className="card-ready-use__info-text">Minimum order 20$ before tax and service charge.</p>
+                        <p className="card-ready-use__end-date">Ends in 3 days</p>
                     </div>
                 </div>
                 <div className="card-ready-use__logos-offer-container">
