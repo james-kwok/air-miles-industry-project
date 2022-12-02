@@ -4,20 +4,20 @@
 .your-offer{
     display: flex;
     flex-direction: column;
-    padding: 2rem 1rem 1rem 1rem;
+    padding: 1rem;
 
     &__blue-text{
         color: $blue-1;
         font-family: $archivo;
+        font-weight: 700;
         margin: 0.5rem;
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
 
     &__grey-text{
         color: $grey-mid;
         font-family: $archivo;
         margin: 0.5rem;
-        padding-bottom: 1rem;
     }
 
     &__visit-website{
