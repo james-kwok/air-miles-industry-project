@@ -8,7 +8,7 @@ import airBnb from "../../assets/images/airbnb.png";
 import amazon from "../../assets/images/amazon.png";
 import lululemon from "../../assets/images/LuluLemon.png";
 import swapIcon from "../../assets/icons/swap_icon.png";
-import { useNavigate, Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const OfferCard = () => {
 
