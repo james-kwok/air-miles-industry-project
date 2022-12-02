@@ -18,7 +18,7 @@ const Header = ({navLinkSelected}) => {
 
         
             <div className="header__nav-links">
-                <NavLink style={({ isActive }) => (isActive || navLinkSelected === "active" ? {color: '#538FE1'} : {color: '#7D8590'})} to="/">Your Offers</NavLink>
+                <NavLink className={navLinkSelected === "active" ? "active" : "nothing"} style={({ isActive }) => (isActive || navLinkSelected === "active"  ? {color: '#538FE1'} : {color: '#7D8590'})} to="/">Your Offers</NavLink>
                 <NavLink style={({ isActive }) => (isActive ? {color: '#538FE1'} : {color: '#7D8590'})} to="/swapOffers">Swap Offers</NavLink>
             </div>
         </div>
