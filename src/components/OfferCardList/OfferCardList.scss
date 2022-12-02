@@ -14,11 +14,11 @@
 
     &__title {
         font-family: $montserrat;
-        font-size: 0.6875rem;
-        font-weight: 600;
         text-transform: uppercase;
         color: $blue-1;
         width: 100%;
+        font-weight: bold;
+        font-size: 1rem;
     }
 
     &__copy {

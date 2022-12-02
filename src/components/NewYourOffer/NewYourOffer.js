@@ -22,7 +22,16 @@ import offersIcon2 from "../../assets/icons/OffersIcon2.png";
 
 import { useState } from 'react';
 
+import { useNavigate } from "react-router-dom";
+
 const NewYourOffers = () => {
+
+    const navigate = useNavigate();
+
+    const handleDetailsPage = () => {
+        navigate("/offerDetails")
+        window.scrollTo(0, 0)
+      };
 
     const [img, setImg] = useState(hMLogo)
     const [value, setValue] = useState("10 Bonus Miles for every $20")
@@ -154,7 +163,7 @@ const NewYourOffers = () => {
                 </div>
                 <div className={newCardInfoContainer2}>
                     <div className="new-card__picture">
-                        <img className={imgClass} src={img} alt=""></img>
+                        <img onClick={handleDetailsPage} className={imgClass} src={img} alt=""></img>
                     </div>
                     <div className="new-card__text-info-container">
                         <p className="new-card__cash-value">{value}</p>
