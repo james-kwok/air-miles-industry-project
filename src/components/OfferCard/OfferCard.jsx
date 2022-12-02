@@ -8,9 +8,22 @@ import airBnb from "../../assets/images/airbnb.png";
 import amazon from "../../assets/images/amazon.png";
 import lululemon from "../../assets/images/LuluLemon.png";
 import swapIcon from "../../assets/icons/swap_icon.png";
-import { Link } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 
 const OfferCard = () => {
+
+  const navigate = useNavigate();
+
+  const handleSwapClick = () => {
+    navigate("/selected")
+    window.scrollTo(0, 0)
+  };
+
+  const handleDetailsPage = () => {
+    navigate("/offerDetails")
+    window.scrollTo(0, 0)
+  };
+
   return (
     <>
       <div className="OfferCard">
@@ -60,30 +73,30 @@ const OfferCard = () => {
         </div>
       </div>
       <div className="OfferCard">
-        <div className="OfferCard__banner">
-          <span className="OfferCard__banner-text">1000 Bonus Miles</span>
-        </div>
-        <div className="OfferCard__image-container">
-          <img
-            className="OfferCard__image"
-            src={americanEagle}
-            alt="sephora-logo"
-          />
-        </div>
-        <div className="OfferCard__text-container">
-          <h2 className="OfferCard__title">
-            For every $50 winter collection, online purchase limited
-          </h2>
-          <p className="OfferCard__duration-text">Ends in 2 days</p>
-        </div>
-        <Link to="/" className="OfferCard__button">
-          <img
-            className="OfferCard__swap-icon"
-            src={swapIcon}
-            alt="swap icon"
-          />
-          <a className="OfferCard__button-text">Swap</a>
-        </Link>
+          <div className="OfferCard__banner" onClick={handleDetailsPage}>
+            <span className="OfferCard__banner-text">1000 Bonus Miles</span>
+          </div>
+          <div className="OfferCard__image-container" onClick={handleDetailsPage}>
+            <img
+              className="OfferCard__image"
+              src={americanEagle}
+              alt="sephora-logo"
+            />
+          </div>
+          <div className="OfferCard__text-container" onClick={handleDetailsPage}>
+            <h2 className="OfferCard__title">
+              For every $50 winter collection, online purchase limited
+            </h2>
+            <p className="OfferCard__duration-text">Ends in 2 days</p>
+          </div>
+          <div className="OfferCard__button">
+            <img
+              className="OfferCard__swap-icon"
+              src={swapIcon}
+              alt="swap icon"
+            />
+            <a className="OfferCard__button-text" onClick={handleSwapClick}>Swap</a>
+          </div>
       </div>
       <div className="OfferCard">
         <div className="OfferCard__banner">

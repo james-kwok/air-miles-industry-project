@@ -1,4 +1,7 @@
 import "./YourOffers.scss";
+
+import Header from "../../components/Header/Header.js";
+
 import rightArrowIcon from "../../assets/icons/RightArrowIcon.png";
 
 import bmoCard from "../../assets/images/BmoCard.png";
@@ -17,6 +20,8 @@ import offersIcon2 from "../../assets/icons/OffersIcon2.png";
 
 const YourOffers = () => {
     return (
+        <>
+        <Header/>
         <section className="your-offer">
             <div className="your-offer__container">
                 <p className="your-offer__blue-text">AIRMILES OFFERS</p>
@@ -125,6 +130,7 @@ const YourOffers = () => {
                 </div>
             </div>
         </section>
+        </>
     );
 };
 

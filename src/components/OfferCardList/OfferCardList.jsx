@@ -1,10 +1,12 @@
 import "./OfferCardList.scss";
 import filterIcon from "../../assets/icons/filter.png";
 import OfferCard from "../OfferCard/OfferCard";
+import Header from "../Header/Header.js";
 
 const OfferCardList = () => {
   return (
     <>
+    <Header />
       <div className="OfferCardList">
         <div className="OfferCardList__container">
           <div className="OfferCardList__text-container">
