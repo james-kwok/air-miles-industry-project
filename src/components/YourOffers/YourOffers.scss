@@ -9,13 +9,13 @@
     &__blue-text{
         color: $blue-1;
         font-family: $archivo;
-        font-weight: 700;
+        font-weight: bold;
         margin: 0.5rem;
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
 
     &__grey-text{
-        color: $grey-mid;
+        color: $grey-dark;
         font-family: $archivo;
         margin: 0.5rem;
     }
@@ -31,7 +31,7 @@
     &__visit-website-container{
         display: flex;
         align-items: center;
-        gap: 0.5rem;
+        margin-top: 2rem;
     }
 
 }
@@ -124,6 +124,10 @@
     &__lulu{
         max-height: 7rem;
     }
+
+    &__american-eagle{
+        max-height: 6rem;
+    }
 }
 
 .ready-use{
@@ -145,9 +149,9 @@
     &__blue-text{
         color: $blue-1;
         font-family: $archivo;
-        font-weight: 700;
         margin: 0.5rem;
-        font-size: 1.3rem;
+        font-size: 1rem;
+        font-weight: bold;
     }
 }
 

@@ -1,0 +1,572 @@
+@use "../../styles/colors.scss" as *;
+@use "../../styles/typography.scss" as *;
+
+.new-your-offer{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+
+    &__blue-text{
+        color: $blue-1;
+        font-family: $archivo;
+        margin: 0.5rem;
+        font-size: 1rem;
+    }
+
+    &__grey-text{
+        color: $grey-dark;
+        font-family: $archivo;
+        margin: 0.5rem;
+        padding-bottom: 1rem;
+    }
+
+    &__visit-website{
+        display: flex;
+    }
+
+    &__visit-icon{
+        max-height: 2rem;
+    }
+
+    &__visit-website-container{
+        display: flex;
+        align-items: center;
+        margin-top: 2rem;
+    }
+
+}
+
+.new-card{
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+
+    &__logos-offer-container{
+        display: flex;
+        box-shadow: 1px 3px 10px #bdc1c7;
+        border-radius: 0.5rem;
+        padding: 0 1rem;
+        justify-content: space-between;
+        background-color: $white;
+        align-items: center;
+    }
+
+    &__offers-icon{
+        max-height: 2.5rem;
+    }
+
+    &__info-container{
+        display: flex;
+        background-color: $white;
+        box-shadow: 1px 3px 10px $grey-light;
+        border-radius: 0.5rem;
+        padding: 0.5rem;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    &__info-container-selected{
+        display: flex;
+        background-color: $white;
+        box-shadow: 1px 3px 10px $grey-light;
+        border-radius: 0.5rem;
+        padding: 0.5rem;
+        align-items: center;
+        gap: 1rem;
+        border: 2px solid $blue-2;
+    }
+
+    &__info-container2{
+        display: flex;
+        background-color: $white;
+        box-shadow: 1px 3px 10px $grey-light;
+        border-radius: 0.5rem;
+        padding: 0.5rem;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    &__info-container-selected2{
+        display: flex;
+        background-color: $white;
+        box-shadow: 1px 3px 10px $grey-light;
+        border-radius: 0.5rem;
+        padding: 0.5rem;
+        align-items: center;
+        gap: 1rem;
+        border: 2px solid $blue-2;
+    }
+
+    &__info-container3{
+        display: flex;
+        background-color: $white;
+        box-shadow: 1px 3px 10px $grey-light;
+        border-radius: 0.5rem;
+        padding: 0.5rem;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    &__info-container-selected3{
+        display: flex;
+        background-color: $white;
+        box-shadow: 1px 3px 10px $grey-light;
+        border-radius: 0.5rem;
+        padding: 0.5rem;
+        align-items: center;
+        gap: 1rem;
+        border: 2px solid $blue-2;
+    }
+
+    &__info-container4{
+        display: flex;
+        background-color: $white;
+        box-shadow: 1px 3px 10px $grey-light;
+        border-radius: 0.5rem;
+        padding: 0.5rem;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    &__info-container-selected4{
+        display: flex;
+        background-color: $white;
+        box-shadow: 1px 3px 10px $grey-light;
+        border-radius: 0.5rem;
+        padding: 0.5rem;
+        align-items: center;
+        gap: 1rem;
+        border: 2px solid $blue-2;
+    }
+
+    &__text-info-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__cash-value{
+        color: $blue-2;
+        font-family: $archivo;
+        font-weight: 700;
+        font-size: 0.9rem;
+    }
+
+    &__info-text{
+        color: $grey-mid;
+        font-family: $archivo;
+        font-size: 0.9rem;
+    }
+
+    &__end-date{
+        color: $grey-dark;
+        font-family: $archivo;
+        font-size: 0.9rem;
+    }
+    
+    &__card-container{
+        display: flex;
+    }
+
+    &__offers-icon-container{
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    &__arrow-icon{
+        max-width: 10%;
+        max-height: 1.3rem;
+    }
+
+    &__offers{
+        color: $grey-mid;
+        font-family: $archivo;
+    }
+
+    &__bmo{
+        max-height: 5rem;
+    }
+
+    &__hm{
+        max-height: 4rem;
+    }
+
+    &__foot-locker{
+        max-width: 7rem;
+    }
+
+    &__lulu{
+        max-height: 7rem;
+    }
+
+    &__american-eagle{
+        max-height: 6rem;
+    }
+
+    &__buton-date-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__swap-me-button-hidden{
+        display: none;
+    }
+
+    &__swap-me-button{
+        color: $blue-2;
+        background-color: $white;
+        font-family: $archivo;
+        font-size: 0.8rem;
+        border-radius: 0.25rem;
+        cursor: grab;
+        border: 1px solid $blue-2;
+        padding: 0.5rem;
+    }
+
+    &__swap-me-button-selected{
+        color: $white;
+        background-color: $blue-2;
+        font-family: $archivo;
+        font-size: 0.8rem;
+        border-radius: 0.25rem;
+        cursor: grab;
+        border: none;
+        padding: 0.5rem;
+    }
+
+    &__swap-me-button2{
+        color: $blue-2;
+        background-color: $white;
+        font-family: $archivo;
+        font-size: 0.8rem;
+        border-radius: 0.25rem;
+        cursor: grab;
+        border: 1px solid $blue-2;
+        padding: 0.5rem;
+    }
+
+    &__swap-me-button-selected2{
+        color: $white;
+        background-color: $blue-2;
+        font-family: $archivo;
+        font-size: 0.8rem;
+        border-radius: 0.25rem;
+        cursor: grab;
+        border: none;
+        padding: 0.5rem;
+    }
+
+    &__swap-me-button3{
+        color: $blue-2;
+        background-color: $white;
+        font-family: $archivo;
+        font-size: 0.8rem;
+        border-radius: 0.25rem;
+        cursor: grab;
+        border: 1px solid $blue-2;
+        padding: 0.5rem;
+    }
+
+    &__swap-me-button-selected3{
+        color: $white;
+        background-color: $blue-2;
+        font-family: $archivo;
+        font-size: 0.8rem;
+        border-radius: 0.25rem;
+        cursor: grab;
+        border: none;
+        padding: 0.5rem;
+    }
+
+    &__swap-me-button4{
+        color: $blue-2;
+        background-color: $white;
+        font-family: $archivo;
+        font-size: 0.8rem;
+        border-radius: 0.25rem;
+        cursor: grab;
+        border: 1px solid $blue-2;
+        padding: 0.5rem;
+    }
+
+    &__swap-me-button-selected4{
+        color: $white;
+        background-color: $blue-2;
+        font-family: $archivo;
+        font-size: 0.8rem;
+        border-radius: 0.25rem;
+        cursor: grab;
+        border: none;
+        padding: 0.5rem;
+    }
+
+    &__swap-me-button5{
+        color: $blue-2;
+        background-color: $white;
+        font-family: $archivo;
+        font-size: 0.8rem;
+        border-radius: 0.25rem;
+        cursor: grab;
+        border: 1px solid $blue-2;
+        padding: 0.5rem;
+    }
+
+    &__swap-me-button-selected5{
+        color: $white;
+        background-color: $blue-2;
+        font-family: $archivo;
+        font-size: 0.8rem;
+        border-radius: 0.25rem;
+        cursor: grab;
+        border: none;
+        padding: 0.5rem;
+    }
+
+    &__swap-me-button6{
+        color: $blue-2;
+        background-color: $white;
+        font-family: $archivo;
+        font-size: 0.8rem;
+        border-radius: 0.25rem;
+        cursor: grab;
+        border: 1px solid $blue-2;
+        padding: 0.5rem;
+    }
+
+    &__swap-me-button-selected6{
+        color: $white;
+        background-color: $blue-2;
+        font-family: $archivo;
+        font-size: 0.8rem;
+        border-radius: 0.25rem;
+        cursor: grab;
+        border: none;
+        padding: 0.5rem;
+    }
+
+    &__swap-me-button7{
+        color: $blue-2;
+        background-color: $white;
+        font-family: $archivo;
+        font-size: 0.8rem;
+        border-radius: 0.25rem;
+        cursor: grab;
+        border: 1px solid $blue-2;
+        padding: 0.5rem;
+    }
+
+    &__swap-me-button-selected7{
+        color: $white;
+        background-color: $blue-2;
+        font-family: $archivo;
+        font-size: 0.8rem;
+        border-radius: 0.25rem;
+        cursor: grab;
+        border: none;
+        padding: 0.5rem;
+    }
+}
+
+.new-ready-use{
+    &__check-text-container{
+        display: flex;
+        align-items: center;
+        margin: 2rem 0 0.5rem;
+    }
+
+    &__check{
+        max-height: 1.5rem;
+    }
+
+    &__text{
+        color: $grey-mid;
+        font-family: $archivo;
+    }
+
+    &__blue-text{
+        color: $blue-1;
+        font-family: $archivo;
+        margin: 0.5rem;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+}
+
+.new-card-ready-use{
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+
+    &__logos-offer-container{
+        display: flex;
+        box-shadow: 1px 3px 10px #bdc1c7;
+        border-radius: 0.5rem;
+        padding: 0 1rem;
+        justify-content: space-between;
+        background-color: $white;
+        align-items: center;
+    }
+
+    &__offers-icon{
+        max-height: 2.5rem;
+    }
+
+    &__info-container{
+        display: flex;
+        background-color: $white;
+        box-shadow: 1px 3px 10px $grey-light;
+        border-radius: 0.5rem;
+        padding: 0.5rem;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    &__info-container-selected{
+        display: flex;
+        background-color: $white;
+        box-shadow: 1px 3px 10px $grey-light;
+        border-radius: 0.5rem;
+        padding: 0.5rem;
+        align-items: center;
+        gap: 1rem;
+        border: 2px solid $blue-2;
+    }
+
+    &__info-container2{
+        display: flex;
+        background-color: $white;
+        box-shadow: 1px 3px 10px $grey-light;
+        border-radius: 0.5rem;
+        padding: 0.5rem;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    &__info-container-selected2{
+        display: flex;
+        background-color: $white;
+        box-shadow: 1px 3px 10px $grey-light;
+        border-radius: 0.5rem;
+        padding: 0.5rem;
+        align-items: center;
+        gap: 1rem;
+        border: 2px solid $blue-2;
+    }
+
+    &__info-container3{
+        display: flex;
+        background-color: $white;
+        box-shadow: 1px 3px 10px $grey-light;
+        border-radius: 0.5rem;
+        padding: 0.5rem;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    &__info-container-selected3{
+        display: flex;
+        background-color: $white;
+        box-shadow: 1px 3px 10px $grey-light;
+        border-radius: 0.5rem;
+        padding: 0.5rem;
+        align-items: center;
+        gap: 1rem;
+        border: 2px solid $blue-2;
+    }
+
+    &__text-info-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__cash-value{
+        color: $blue-2;
+        font-family: $archivo;
+        font-weight: 700;
+        font-size: 0.9rem;
+    }
+
+    &__info-text{
+        color: $grey-mid;
+        font-family: $archivo;
+        font-size: 0.9rem;
+    }
+
+    &__end-date{
+        color: $grey-dark;
+        font-family: $archivo;
+        font-size: 0.9rem;
+    }
+    
+    &__card-container{
+        display: flex;
+    }
+
+    &__offers-icon-container{
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    &__arrow-icon{
+        max-width: 10%;
+        max-height: 1.3rem;
+    }
+
+    &__offers{
+        color: $grey-mid;
+        font-family: $archivo;
+    }
+
+    &__mcdonalds{
+        max-height: 7rem;
+    }
+
+    &__uber-eats{
+        max-height: 3rem;
+    }
+
+    &__door-dash{
+        max-width: 7rem;
+    }
+
+}
+
+.confirm{
+
+    &__text-button-container-hidden{
+        display: none;
+    }
+
+    &__text-button-container{
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid $grey-light;
+        border-bottom: 1px solid $grey-light;
+        background-color: $white;
+        position: fixed;
+        bottom:0%;
+        width: 100%;
+        padding: 0.5rem;
+    }
+
+    &__offers-selected{
+        color: $blue-2;
+        font-family: $archivo;
+        font-weight: 700;
+        font-size: 0.9rem;
+    }
+
+    &__confirm-button{
+        color: #FFFFFF;
+        background-color: #1F64C3;
+        font-family: $archivo;
+        font-size: 1rem;
+        border-radius: 0.25rem;
+        cursor: grab;
+        border: none;
+        padding: 0.5rem;
+        width: 40%;
+    }
+}
