@@ -16,7 +16,6 @@ function App() {
         <Route path="/swapOffers" element={<OfferCardList/>} />
         <Route path="/selected" element={<NewYourOffer/>}/>
       </Routes>
-      <Footer/>
     </BrowserRouter>
   );
 }
