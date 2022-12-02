@@ -29,7 +29,7 @@ const NewYourOffers = () => {
     const navigate = useNavigate();
 
     const handleDetailsPage = () => {
-        navigate("/")
+        navigate("/offerDetails")
         window.scrollTo(0, 0)
       };
 
