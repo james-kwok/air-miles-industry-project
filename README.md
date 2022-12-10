@@ -1,0 +1,5 @@
+# air-miles-industry-project
+a 24 hour hackathon hosted by BrainStation and Loyalty One | Air Miles
+Competed in a 24-hour hackathon hosted by BrainStation and Loyalty One and won 1st place out of 8 teams. The scope of the hackathon was to design and develop a solution to boost Air Miles's long-term business goal of attracting millennials and gen z users. Our solution became two potential product features - the first step was to redesign the recommendations model and the second step was to create a feature where users can swap offers periodically. The goal of our solution was to 1. boost user retention and 2. make the Air Miles platform more attractive to the younger segments. Our team consists of 2 full stack developers, 2 product designers, and 1 data scientist. My responsibilities span from brainstorming, researching, and developing our prototype using React.js.
+![IMG_6523](https://user-images.githubusercontent.com/110112271/206831875-6ce23e0b-4dec-4bc0-a207-42caccc58d3f.jpeg)
+[LoyaltyOne Pitch Deck - Group 7.pdf](https://github.com/james-kwok/air-miles-industry-project/files/10199295/LoyaltyOne.Pitch.Deck.-.Group.7.pdf)
